@@ -103,7 +103,7 @@ YDLidar has many models and you need to find your parameters according to your m
 <tr><th> X4        <td> 6	   <td>  128000   <td>   5            <td>  0.12~10     	<td> 5~12(PWM)      <td> false          <td> false    	  <td> 4.8~5.2
 </table>
 
-As we are using some other version of the drivers we have to change the parameters manually as discussed [here]([https://github.com/cclngit/ydlidar_ros2_driver#configure-lidar](https://github.com/karanS08/Ydlidar-with-ROS2/blob/main/res/Screenshot%20from%202023-10-16%2011-07-07.png)) according to your lidar model.
+As we are using some other version of the drivers we have to change the parameters manually as discussed [here](https://github.com/cclngit/ydlidar_ros2_driver#configure-lidar) according to your lidar model.
 
 ### Now you are all set for launching you first lidar visualization in Rviz2
 
@@ -113,4 +113,4 @@ ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 
 It should look something like :
 
-![Lidar Scan](./res/lidar-scan.png)
+![Lidar Scan](res/lidar_scan.png)
